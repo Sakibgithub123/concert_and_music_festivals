@@ -1,0 +1,87 @@
+ [
+    {
+      "id": 1,
+      "name": "Product A",
+      "image": "https://i.ibb.co/pQXZdHQ/people-1728150-1280.jpg",
+      "price": 19.99,
+      "shortDescription": "A versatile and stylish product for everyday use."
+    },
+    {
+      "id": 2,
+      "name": "Product B",
+      "image": "https://i.ibb.co/L1K21bw/tape-2264972-1280.jpg",
+      "price": 29.99,
+      "shortDescription": "High-quality and durable product with multiple features."
+    },
+    {
+      "id": 3,
+      "name": "Product C",
+      "image": "https://i.ibb.co/h8yfz6t/flutes-429759-1280.jpg",
+      "price": 14.99,
+      "shortDescription": "Affordable and practical product for any occasion."
+    },
+    {
+      "id": 4,
+      "name": "Product D",
+      "image": "https://i.ibb.co/CHgmwx2/girl-1990347-1280.jpg",
+      "price": 24.99,
+      "shortDescription": "Elegant and sophisticated design for special occasions."
+    },
+    {
+      "id": 5,
+      "name": "Product E",
+      "image": "https://i.ibb.co/jfkYyBf/ai-generated-8103796-1280.jpg",
+      "price": 9.99,
+      "shortDescription": "Compact and lightweight product for easy carrying."
+    },
+    {
+      "id": 6,
+      "name": "Product F",
+      "image": "https://i.ibb.co/pjMQ7cT/maria-bayo-883876-1280.jpg",
+      "price": 34.99,
+      "shortDescription": "Versatile and feature-rich product for tech enthusiasts."
+    },
+    {
+      "id": 7,
+      "name": "Product G",
+      "image": "https://i.ibb.co/cyrKNW4/concert-3084876-1280.jpg",
+      "price": 18.99,
+      "shortDescription": "Modern and ergonomic design for comfortable use."
+    },
+    {
+      "id": 8,
+      "name": "Product H",
+      "image": "https://i.ibb.co/pPDgQDx/audience-1853662-1280.jpg",
+      "price": 12.99,
+      "shortDescription": "Simple and functional product for everyday tasks."
+    },
+    {
+      "id": 9,
+      "name": "Product I",
+      "image": "https://i.ibb.co/SfvZ2R1/concert-3441109-1280.jpg",
+      "price": 27.99,
+      "shortDescription": "Premium quality product with a touch of luxury."
+    },
+    {
+      "id": 10,
+      "name": "Product J",
+      "image": "https://i.ibb.co/HxxF4CD/singer-7229800-1280.jpg",
+      "price": 16.99,
+      "shortDescription": "Sleek and stylish product for fashion-conscious individuals."
+    },
+    {
+      "id": 11,
+      "name": "Product K",
+      "image": "https://i.ibb.co/gRC59sN/concert-5099997-1280.jpg",
+      "price": 22.99,
+      "shortDescription": "Durable and rugged product designed for outdoor adventures."
+    },
+    {
+      "id": 12,
+      "name": "Product L",
+      "image": "https://i.ibb.co/QCbtTTh/people-3084875-1280.jpg",
+      "price": 31.99,
+      "shortDescription": "Eco-friendly and sustainable product for a greener world."
+    }
+  ]
+  
