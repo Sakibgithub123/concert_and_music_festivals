@@ -7,13 +7,13 @@ import { initializeApp } from "firebase/app";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyC8lpWO7nThQSQAgZ6B6Rt_386q_NvOiRE",
-  authDomain: "concert-and-music-festivals.firebaseapp.com",
-  projectId: "concert-and-music-festivals",
-  storageBucket: "concert-and-music-festivals.appspot.com",
-  messagingSenderId: "492983873943",
-  appId: "1:492983873943:web:348188cb011f7e90fa54d2",
-  measurementId: "G-8M4RHT0QDZ"
+  apiKey: import.meta.env.VITE_APIKEY,
+  authDomain: import.meta.env.VITE_AUTHDOMAIN,
+  projectId: import.meta.env.VITE_PROJECTID,
+  storageBucket: import.meta.env.VITE_STORAGEBUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGINGSENDERID,
+  appId: import.meta.env.VITE_APPID,
+  measurementId: import.meta.env.VITE_MEASUREMENTID
 };
 
 // Initialize Firebase

@@ -3,11 +3,15 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../Provider/AuthProvider";
 
 
+
 const Login = () => {
-const {signIn}=useContext(AuthContext)
+const {signIn,googleSignIn}=useContext(AuthContext)
 const [errors, setErrors] = useState('')
 const [emailError, setEmailError] = useState('')
 const [passwordError, setPasswordError] = useState('')
+ const [user,setUser]=useState(null)
+
+
 
 const location=useLocation()
 const navigate=useNavigate()
@@ -40,6 +44,19 @@ const navigate=useNavigate()
         })
         
 
+
+    }
+    const googleSignin=()=>{
+        googleSignIn()
+        .then(result=>{
+            const logedInUser = result.user
+            console.log(logedInUser)
+            setUser(logedInUser)
+            navigate(location?.state? location.state : '/')
+        })
+        .catch(error =>{
+            console.error('error',error.message)
+        })
 
     }
     return (
@@ -78,10 +95,15 @@ const navigate=useNavigate()
                         </div>
                         <div className="form-control mt-6">
                             <button className="border border-slate-500 py-2 px-6 text-[#fff] font-semibold text-base">Login</button>
+                            
                             <p className="py-3 text-[#fff] text-center font-medium">Dont have account? <Link className="underline text-green-300" to={"/register"}>Register Now</Link> </p>
                         </div>
                     </form>
+                    <button onClick={googleSignin} className="border border-slate-500 py-2 px-6 text-[#fff] font-semibold text-base mt-5">Sign in with Google</button>
                 </div>
+                {
+                    user && <p>user:{user.displayName}</p>
+                }
             </div>
         </div>
     );
