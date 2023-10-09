@@ -2,16 +2,20 @@
 import { useEffect, useState } from "react";
 import Banner from "../Banner/Banner";
 import Services from "../Services/Services";
+import Artist from "../Artist/Artist";
+import TopSeller from "../TopSeller/TopSeller";
 
 
 
 const Home = () => {
     const [events,setEvent]=useState([])
+   
 
     useEffect(()=>{
         fetch('Events.json')
         .then(res =>res.json())
         .then(data=>setEvent(data))
+       
 
     },[])
     return (
@@ -25,6 +29,11 @@ const Home = () => {
 
                 }
             </div>
+            <h3 className="text-center font-bold text-3xl my-5">Trending Artists</h3>
+            <Artist></Artist>
+
+            <TopSeller></TopSeller>
+
             
         </div>
     );

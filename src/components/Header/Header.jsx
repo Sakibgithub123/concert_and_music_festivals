@@ -15,8 +15,12 @@ const Header = () => {
  const navlinks= <>
  <li className="text-[#fff] text-lg font-semibold"><NavLink  to={"/"}>Home</NavLink></li>
  <li className="text-[#fff] text-lg font-semibold"><NavLink to={"/about"}>About Us</NavLink></li>
+ <li className="text-[#fff] text-lg font-semibold"><NavLink to={"/blog"}>Blog</NavLink></li>
  {
   user?  <li className="text-[#fff] text-lg font-semibold"><NavLink to={"/contact"}>Contact</NavLink></li> :''
+ }
+ {
+   user?  <li className="text-[#fff] text-lg font-semibold"><NavLink to={"/nearyou"}>NearYou</NavLink></li> :''
  }
 
  

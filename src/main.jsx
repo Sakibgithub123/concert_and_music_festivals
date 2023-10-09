@@ -16,6 +16,8 @@ import AuthProvider from './components/Provider/AuthProvider.jsx';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import Contact from './components/Contact/Contact';
 import About from './components/About/About';
+import Blog from './components/Blog/Blog';
+import NearYou from './components/NearYou/NearYou';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -30,6 +32,15 @@ const router = createBrowserRouter([
     {
        path:"/about",
        element:<About></About>
+    },
+    {
+      path:"/blog",
+      element:<Blog></Blog>
+
+    },
+    {
+      path:"/nearyou",
+      element:<PrivateRoute><NearYou></NearYou></PrivateRoute>
     },
     {
       path:"/serviceDetails/:id",
