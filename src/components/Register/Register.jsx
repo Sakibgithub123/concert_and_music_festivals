@@ -37,9 +37,9 @@ const Register = () => {
       return;
 
     }
-    else if (!/^(?=.*[A-Z])(?=.*[a-z])(?=.*[^a-zA-Z0-9]).+$/.test(password)) {
+    else if (!/^(?=.*\d)(?=.*[A-Z])(?=.*[!@#$%^&*()_+{}\[\]:;<>,.?~\\-]).+$/.test(password)) {
       setPasswordError(
-        'Password must contain one uppercase,lowercase & special chracter!')
+        'Password must contain  number, uppercase letter & a special chracter!')
       return;
 
     }
@@ -48,7 +48,7 @@ const Register = () => {
     createUser(email, password)
       .then(result => {
         console.log(result.user)
-        setRegisterSuccess('User created Success')
+        setRegisterSuccess('User Created Successful!')
       })
       .catch(error => {
         console.error(error)
@@ -70,7 +70,7 @@ const Register = () => {
           <form onSubmit={handleRegister} className="card-body">
             <h1 className="text-center text-[#fff] text-3xl font-semibold">Register Now</h1>
             {
-              registerSuccess && <p className="text-lg text-red-900 font-medium">{registerSuccess}</p>
+              registerSuccess && <p className=" text-center text-lg text-red-900 font-medium">{registerSuccess}</p>
             }
             {
               errors && <p className="text-lg text-red-900 font-medium">{errors}</p>

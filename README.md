@@ -12,3 +12,5 @@ Currently, two official plugins are available:
 3.Private route page
 4.logedin user name photo show in navbar
 5.404 not found error show
+
+Live link :  https://65243a564bd22913240e5862--unique-pegasus-9c4c76.netlify.app/
