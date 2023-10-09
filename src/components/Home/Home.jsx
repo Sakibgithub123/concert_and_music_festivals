@@ -15,7 +15,7 @@ const Home = () => {
 
     },[])
     return (
-        <div>
+        <div className="font-montserrat">
             <Banner></Banner>
             <h3 className="text-center font-bold text-3xl my-5">Our Services</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

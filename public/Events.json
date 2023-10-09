@@ -1,87 +1,111 @@
  [
     {
       "id": 1,
-      "name": "Product A",
+      "name": "Jazz Jam Sessions",
       "image": "https://i.ibb.co/pQXZdHQ/people-1728150-1280.jpg",
       "price": 19.99,
-      "shortDescription": "A versatile and stylish product for everyday use."
+      "date":"29 Nov 2023",
+      "view":"59",
+      "shortDescription": "Jazz Jam Sessions Music is a universal language that transcends boundaries and cultures. It has the power to evoke emotions, from joy and nostalgia to melancholy and introspection. Through melody and rhythm, music can tell stories and convey complex feelings in ways that words alone cannot. Whether it's the soothing sounds of classical compositions or the energetic beats of rock and roll, music has a profound impact on our lives. It can be a source of inspiration, a means of self-expression, and a way to connect with others. Music festivals and concerts bring people together to celebrate the beauty of sound and create unforgettable memories. In our increasingly digital world, streaming platforms make it easier than ever to explore a vast and diverse musical landscape, allowing us to discover new artists and genres with just a click. Music is not just an art form; it's a powerful force that enriches our lives and resonates with our souls."
     },
     {
       "id": 2,
-      "name": "Product B",
+      "name": "Rock 'n' Roll Revolution",
       "image": "https://i.ibb.co/L1K21bw/tape-2264972-1280.jpg",
       "price": 29.99,
-      "shortDescription": "High-quality and durable product with multiple features."
+      "date":"22 Nov 2023",
+      "view":"109",
+      "shortDescription": "Rock 'n' Roll Revolution Music is a universal language that transcends boundaries and cultures. It has the power to evoke emotions, from joy and nostalgia to melancholy and introspection. Through melody and rhythm, music can tell stories and convey complex feelings in ways that words alone cannot. Whether it's the soothing sounds of classical compositions or the energetic beats of rock and roll, music has a profound impact on our lives. It can be a source of inspiration, a means of self-expression, and a way to connect with others. Music festivals and concerts bring people together to celebrate the beauty of sound and create unforgettable memories. In our increasingly digital world, streaming platforms make it easier than ever to explore a vast and diverse musical landscape, allowing us to discover new artists and genres with just a click. Music is not just an art form; it's a powerful force that enriches our lives and resonates with our souls."
     },
     {
       "id": 3,
-      "name": "Product C",
+      "name": "Country Ballads and Twang",
       "image": "https://i.ibb.co/h8yfz6t/flutes-429759-1280.jpg",
       "price": 14.99,
-      "shortDescription": "Affordable and practical product for any occasion."
+      "date":"29 Dec 2023",
+      "view":"43",
+      "shortDescription": "Country Ballads and Twang Music is a universal language that transcends boundaries and cultures. It has the power to evoke emotions, from joy and nostalgia to melancholy and introspection. Through melody and rhythm, music can tell stories and convey complex feelings in ways that words alone cannot. Whether it's the soothing sounds of classical compositions or the energetic beats of rock and roll, music has a profound impact on our lives. It can be a source of inspiration, a means of self-expression, and a way to connect with others. Music festivals and concerts bring people together to celebrate the beauty of sound and create unforgettable memories. In our increasingly digital world, streaming platforms make it easier than ever to explore a vast and diverse musical landscape, allowing us to discover new artists and genres with just a click. Music is not just an art form; it's a powerful force that enriches our lives and resonates with our souls."
     },
     {
       "id": 4,
-      "name": "Product D",
+      "name": "Pop Chart-Toppers of the Decade",
       "image": "https://i.ibb.co/CHgmwx2/girl-1990347-1280.jpg",
       "price": 24.99,
-      "shortDescription": "Elegant and sophisticated design for special occasions."
+      "date":"26 Nov 2023",
+      "view":"79",
+      "shortDescription": "Pop Chart-Toppers of the Decade Music is a universal language that transcends boundaries and cultures. It has the power to evoke emotions, from joy and nostalgia to melancholy and introspection. Through melody and rhythm, music can tell stories and convey complex feelings in ways that words alone cannot. Whether it's the soothing sounds of classical compositions or the energetic beats of rock and roll, music has a profound impact on our lives. It can be a source of inspiration, a means of self-expression, and a way to connect with others. Music festivals and concerts bring people together to celebrate the beauty of sound and create unforgettable memories. In our increasingly digital world, streaming platforms make it easier than ever to explore a vast and diverse musical landscape, allowing us to discover new artists and genres with just a click. Music is not just an art form; it's a powerful force that enriches our lives and resonates with our souls."
     },
     {
       "id": 5,
-      "name": "Product E",
+      "name": "Hip-Hop Beats and Rhymes",
       "image": "https://i.ibb.co/jfkYyBf/ai-generated-8103796-1280.jpg",
       "price": 9.99,
-      "shortDescription": "Compact and lightweight product for easy carrying."
+      "date":"01 Nov 2023",
+      "view":"509",
+      "shortDescription": "Hip-Hop Beats and Rhymes Music is a universal language that transcends boundaries and cultures. It has the power to evoke emotions, from joy and nostalgia to melancholy and introspection. Through melody and rhythm, music can tell stories and convey complex feelings in ways that words alone cannot. Whether it's the soothing sounds of classical compositions or the energetic beats of rock and roll, music has a profound impact on our lives. It can be a source of inspiration, a means of self-expression, and a way to connect with others. Music festivals and concerts bring people together to celebrate the beauty of sound and create unforgettable memories. In our increasingly digital world, streaming platforms make it easier than ever to explore a vast and diverse musical landscape, allowing us to discover new artists and genres with just a click. Music is not just an art form; it's a powerful force that enriches our lives and resonates with our souls."
     },
     {
       "id": 6,
-      "name": "Product F",
+      "name": "Classical Symphony in D Major",
       "image": "https://i.ibb.co/pjMQ7cT/maria-bayo-883876-1280.jpg",
       "price": 34.99,
-      "shortDescription": "Versatile and feature-rich product for tech enthusiasts."
+      "date":"15 De3c 2023",
+      "view":"105",
+      "shortDescription": "Classical Symphony in D Major Music is a universal language that transcends boundaries and cultures. It has the power to evoke emotions, from joy and nostalgia to melancholy and introspection. Through melody and rhythm, music can tell stories and convey complex feelings in ways that words alone cannot. Whether it's the soothing sounds of classical compositions or the energetic beats of rock and roll, music has a profound impact on our lives. It can be a source of inspiration, a means of self-expression, and a way to connect with others. Music festivals and concerts bring people together to celebrate the beauty of sound and create unforgettable memories. In our increasingly digital world, streaming platforms make it easier than ever to explore a vast and diverse musical landscape, allowing us to discover new artists and genres with just a click. Music is not just an art form; it's a powerful force that enriches our lives and resonates with our souls."
     },
     {
       "id": 7,
-      "name": "Product G",
+      "name": "Electronic Dance Grooves",
       "image": "https://i.ibb.co/cyrKNW4/concert-3084876-1280.jpg",
       "price": 18.99,
-      "shortDescription": "Modern and ergonomic design for comfortable use."
+      "date":"19 Nov 2023",
+      "view":"59",
+      "shortDescription": "Electronic Dance Grooves Music is a universal language that transcends boundaries and cultures. It has the power to evoke emotions, from joy and nostalgia to melancholy and introspection. Through melody and rhythm, music can tell stories and convey complex feelings in ways that words alone cannot. Whether it's the soothing sounds of classical compositions or the energetic beats of rock and roll, music has a profound impact on our lives. It can be a source of inspiration, a means of self-expression, and a way to connect with others. Music festivals and concerts bring people together to celebrate the beauty of sound and create unforgettable memories. In our increasingly digital world, streaming platforms make it easier than ever to explore a vast and diverse musical landscape, allowing us to discover new artists and genres with just a click. Music is not just an art form; it's a powerful force that enriches our lives and resonates with our souls."
     },
     {
       "id": 8,
-      "name": "Product H",
+      "name": "Blues Guitar Legends",
       "image": "https://i.ibb.co/pPDgQDx/audience-1853662-1280.jpg",
       "price": 12.99,
-      "shortDescription": "Simple and functional product for everyday tasks."
+      "date":"10 Nov 2023",
+      "view":"400",
+      "shortDescription": "Blues Guitar Legends Music is a universal language that transcends boundaries and cultures. It has the power to evoke emotions, from joy and nostalgia to melancholy and introspection. Through melody and rhythm, music can tell stories and convey complex feelings in ways that words alone cannot. Whether it's the soothing sounds of classical compositions or the energetic beats of rock and roll, music has a profound impact on our lives. It can be a source of inspiration, a means of self-expression, and a way to connect with others. Music festivals and concerts bring people together to celebrate the beauty of sound and create unforgettable memories. In our increasingly digital world, streaming platforms make it easier than ever to explore a vast and diverse musical landscape, allowing us to discover new artists and genres with just a click. Music is not just an art form; it's a powerful force that enriches our lives and resonates with our souls."
     },
     {
       "id": 9,
-      "name": "Product I",
+      "name": "R&B Soulful Serenades",
       "image": "https://i.ibb.co/SfvZ2R1/concert-3441109-1280.jpg",
       "price": 27.99,
-      "shortDescription": "Premium quality product with a touch of luxury."
+      "date":"05 Nov 2023",
+      "view":"500",
+      "shortDescription": "R&B Soulful Serenades Music is a universal language that transcends boundaries and cultures. It has the power to evoke emotions, from joy and nostalgia to melancholy and introspection. Through melody and rhythm, music can tell stories and convey complex feelings in ways that words alone cannot. Whether it's the soothing sounds of classical compositions or the energetic beats of rock and roll, music has a profound impact on our lives. It can be a source of inspiration, a means of self-expression, and a way to connect with others. Music festivals and concerts bring people together to celebrate the beauty of sound and create unforgettable memories. In our increasingly digital world, streaming platforms make it easier than ever to explore a vast and diverse musical landscape, allowing us to discover new artists and genres with just a click. Music is not just an art form; it's a powerful force that enriches our lives and resonates with our souls."
     },
     {
       "id": 10,
-      "name": "Product J",
+      "name": "Folk Tales and Melodies",
       "image": "https://i.ibb.co/HxxF4CD/singer-7229800-1280.jpg",
       "price": 16.99,
-      "shortDescription": "Sleek and stylish product for fashion-conscious individuals."
+      "date":"26 Dec 2023",
+      "view":"203",
+      "shortDescription": "Folk Tales and Melodies Music is a universal language that transcends boundaries and cultures. It has the power to evoke emotions, from joy and nostalgia to melancholy and introspection. Through melody and rhythm, music can tell stories and convey complex feelings in ways that words alone cannot. Whether it's the soothing sounds of classical compositions or the energetic beats of rock and roll, music has a profound impact on our lives. It can be a source of inspiration, a means of self-expression, and a way to connect with others. Music festivals and concerts bring people together to celebrate the beauty of sound and create unforgettable memories. In our increasingly digital world, streaming platforms make it easier than ever to explore a vast and diverse musical landscape, allowing us to discover new artists and genres with just a click. Music is not just an art form; it's a powerful force that enriches our lives and resonates with our souls."
     },
     {
       "id": 11,
-      "name": "Product K",
+      "name": "Reggae Vibes and Rhythms",
       "image": "https://i.ibb.co/gRC59sN/concert-5099997-1280.jpg",
       "price": 22.99,
-      "shortDescription": "Durable and rugged product designed for outdoor adventures."
+      "date":"31 Dec 2023",
+      "view":"59",
+      "shortDescription": "Reggae Vibes and Rhythms Music is a universal language that transcends boundaries and cultures. It has the power to evoke emotions, from joy and nostalgia to melancholy and introspection. Through melody and rhythm, music can tell stories and convey complex feelings in ways that words alone cannot. Whether it's the soothing sounds of classical compositions or the energetic beats of rock and roll, music has a profound impact on our lives. It can be a source of inspiration, a means of self-expression, and a way to connect with others. Music festivals and concerts bring people together to celebrate the beauty of sound and create unforgettable memories. In our increasingly digital world, streaming platforms make it easier than ever to explore a vast and diverse musical landscape, allowing us to discover new artists and genres with just a click. Music is not just an art form; it's a powerful force that enriches our lives and resonates with our souls."
     },
     {
       "id": 12,
-      "name": "Product L",
+      "name": "Latin Salsa Fiesta",
       "image": "https://i.ibb.co/QCbtTTh/people-3084875-1280.jpg",
       "price": 31.99,
-      "shortDescription": "Eco-friendly and sustainable product for a greener world."
+      "date":"25 Nov 2023",
+      "view":"59",
+      "shortDescription": "Latin Salsa Fiesta Music is a universal language that transcends boundaries and cultures. It has the power to evoke emotions, from joy and nostalgia to melancholy and introspection. Through melody and rhythm, music can tell stories and convey complex feelings in ways that words alone cannot. Whether it's the soothing sounds of classical compositions or the energetic beats of rock and roll, music has a profound impact on our lives. It can be a source of inspiration, a means of self-expression, and a way to connect with others. Music festivals and concerts bring people together to celebrate the beauty of sound and create unforgettable memories. In our increasingly digital world, streaming platforms make it easier than ever to explore a vast and diverse musical landscape, allowing us to discover new artists and genres with just a click. Music is not just an art form; it's a powerful force that enriches our lives and resonates with our souls."
     }
   ]
   

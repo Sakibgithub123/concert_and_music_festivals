@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { NavLink } from "react-router-dom";
 import { AuthContext } from "../Provider/AuthProvider";
+import logo from "../../assets/logo.png"
 
 const Header = () => {
   const {user , logout}=useContext(AuthContext)
@@ -13,12 +14,16 @@ const Header = () => {
    
  const navlinks= <>
  <li className="text-[#fff] text-lg font-semibold"><NavLink  to={"/"}>Home</NavLink></li>
- <li className="text-[#fff] text-lg font-semibold"><NavLink to={"/services"}>Services</NavLink></li>
+ <li className="text-[#fff] text-lg font-semibold"><NavLink to={"/about"}>About Us</NavLink></li>
+ {
+  user?  <li className="text-[#fff] text-lg font-semibold"><NavLink to={"/contact"}>Contact</NavLink></li> :''
+ }
+
  
  </>
    
     return (
-        <div className="navbar bg-[#2d3e50]">
+        <div className="navbar bg-[#2d3e50] font-montserrat">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -30,7 +35,7 @@ const Header = () => {
               }
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case font-bold text-xl text-[#fff]">Music Festivals</a>
+          <a className="btn btn-ghost normal-case font-bold text-xl text-[#fff]" > <img className="rounded-full" width={50} height={50} src={logo} alt="" />Music Festivals</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
