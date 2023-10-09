@@ -64,7 +64,7 @@ const Register = () => {
     <div className="hero min-h-screen bg-base-200 font-montserrat">
       <div className="hero-content w-full">
 
-        <div className="card  w-5/12  shadow-2xl bg-[#2d3e50]">
+        <div className="card  md:w-5/12  shadow-2xl bg-[#2d3e50]">
 
 
           <form onSubmit={handleRegister} className="card-body">

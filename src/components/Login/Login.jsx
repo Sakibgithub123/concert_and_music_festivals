@@ -23,6 +23,7 @@ const navigate=useNavigate()
         console.log(email,password)
         setEmailError('')
         setPasswordError('')
+    
 
         if (email.valueOf() === "") {
             setEmailError('Email field is required')
@@ -63,7 +64,7 @@ const navigate=useNavigate()
         <div className="hero min-h-screen bg-base-200 font-montserrat">
             <div className="hero-content w-full">
 
-                <div className="card w-5/12  shadow-2xl bg-[#2d3e50] ">
+                <div className="card md:w-5/12  shadow-2xl bg-[#2d3e50] ">
                     
                     <form onSubmit={handleLogin} className="card-body">
                     <h1 className="text-center text-[#fff] text-3xl font-semibold">Login</h1>

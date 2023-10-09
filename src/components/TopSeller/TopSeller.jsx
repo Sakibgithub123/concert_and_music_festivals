@@ -12,7 +12,7 @@ const TopSeller = () => {
     return (
         <div className="my-8 font-montserrat">
             <h3 className="text-center font-bold text-3xl my-5">Top Seller</h3>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div className="bg-[#2d3e50] text-[#fff] shadow-xl">
                     <figure><img className="w-full h-60" src={img1} alt="Shoes" /></figure>
                     <div className="text-justify space-y-4 p-4">
@@ -27,9 +27,9 @@ const TopSeller = () => {
                         <hr />
                         <div className="flex flex-row justify-between items-center">
                             <div>
-                                <p className="flex flex-row text-lg justify-center items-center px-3 font-semibold text-[#fff]"> <CiCalendarDate className="pr-1"></CiCalendarDate><span>15 Nov 2023</span></p>
+                                <p className="flex flex-row text-lg justify-center items-center px-3 font-semibold text-[#fff]"> <CiCalendarDate className="pr-1"></CiCalendarDate>15 Nov 2023</p>
                             </div>
-                            <div className="flex flex-row">
+                            <div className="flex flex-col md:flex-row">
                                 <span className="flex flex-row text-lg justify-center items-center px-3 font-semibold text-[#fff]">  <BsEye className="pr-1"></BsEye><span>5.3k</span></span>
                                 <span className="flex flex-row text-lg justify-center items-center font-semibold text-[#fff]"><BsCurrencyDollar className="pr-1" ></BsCurrencyDollar><span>23.34</span></span>
                             </div>
@@ -52,9 +52,9 @@ const TopSeller = () => {
                         <hr />
                         <div className="flex flex-row justify-between items-center">
                             <div>
-                                <p className="flex flex-row text-lg justify-center items-center px-3 font-semibold text-[#fff]"> <CiCalendarDate className="pr-1"></CiCalendarDate><span>15 Nov 2023</span></p>
+                                <p className="flex flex-row text-lg justify-center items-center px-3 font-semibold text-[#fff]"> <CiCalendarDate className="pr-1"></CiCalendarDate>15 Nov 2023</p>
                             </div>
-                            <div className="flex flex-row">
+                            <div className="flex flex-col md:flex-row">
                                 <span className="flex flex-row text-lg justify-center items-center px-3 font-semibold text-[#fff]">  <BsEye className="pr-1"></BsEye><span>5.3k</span></span>
                                 <span className="flex flex-row text-lg justify-center items-center font-semibold text-[#fff]"><BsCurrencyDollar className="pr-1" ></BsCurrencyDollar><span>23.34</span></span>
                             </div>
@@ -77,9 +77,9 @@ const TopSeller = () => {
                         <hr />
                         <div className="flex flex-row justify-between items-center">
                             <div>
-                                <p className="flex flex-row text-lg justify-center items-center px-3 font-semibold text-[#fff]"> <CiCalendarDate className="pr-1"></CiCalendarDate><span>15 Nov 2023</span></p>
+                                <p className="flex flex-row text-lg justify-center items-center px-3 font-semibold text-[#fff]"> <CiCalendarDate className="pr-1"></CiCalendarDate>15 Nov 2023</p>
                             </div>
-                            <div className="flex flex-row">
+                            <div className="flex flex-col md:flex-row">
                                 <span className="flex flex-row text-lg justify-center items-center px-3 font-semibold text-[#fff]">  <BsEye className="pr-1"></BsEye><span>5.3k</span></span>
                                 <span className="flex flex-row text-lg justify-center items-center font-semibold text-[#fff]"><BsCurrencyDollar className="pr-1" ></BsCurrencyDollar><span>23.34</span></span>
                             </div>
@@ -102,9 +102,9 @@ const TopSeller = () => {
                         <hr />
                         <div className="flex flex-row justify-between items-center">
                             <div>
-                                <p className="flex flex-row text-lg justify-center items-center px-3 font-semibold text-[#fff]"> <CiCalendarDate className="pr-1"></CiCalendarDate><span>15 Nov 2023</span></p>
+                                <p className="flex flex-row text-lg justify-center items-center px-3 font-semibold text-[#fff]"> <CiCalendarDate className="pr-1"></CiCalendarDate>15 Nov 2023</p>
                             </div>
-                            <div className="flex flex-row">
+                            <div className="flex flex-col md:flex-row">
                                 <span className="flex flex-row text-lg justify-center items-center px-3 font-semibold text-[#fff]">  <BsEye className="pr-1"></BsEye><span>5.3k</span></span>
                                 <span className="flex flex-row text-lg justify-center items-center font-semibold text-[#fff]"><BsCurrencyDollar className="pr-1" ></BsCurrencyDollar><span>23.34</span></span>
                             </div>
@@ -127,9 +127,9 @@ const TopSeller = () => {
                         <hr />
                         <div className="flex flex-row justify-between items-center">
                             <div>
-                                <p className="flex flex-row text-lg justify-center items-center px-3 font-semibold text-[#fff]"> <CiCalendarDate className="pr-1"></CiCalendarDate><span>15 Nov 2023</span></p>
+                                <p className="flex flex-row text-lg justify-center items-center px-3 font-semibold text-[#fff]"> <CiCalendarDate className="pr-1"></CiCalendarDate>15 Nov 2023</p>
                             </div>
-                            <div className="flex flex-row">
+                            <div className="flex flex-col md:flex-row">
                                 <span className="flex flex-row text-lg justify-center items-center px-3 font-semibold text-[#fff]">  <BsEye className="pr-1"></BsEye><span>5.3k</span></span>
                                 <span className="flex flex-row text-lg justify-center items-center font-semibold text-[#fff]"><BsCurrencyDollar className="pr-1" ></BsCurrencyDollar><span>23.34</span></span>
                             </div>
@@ -152,9 +152,9 @@ const TopSeller = () => {
                         <hr />
                         <div className="flex flex-row justify-between items-center">
                             <div>
-                                <p className="flex flex-row text-lg justify-center items-center px-3 font-semibold text-[#fff]"> <CiCalendarDate className="pr-1"></CiCalendarDate><span>15 Nov 2023</span></p>
+                                <p className="flex flex-row text-lg justify-center items-center px-3 font-semibold text-[#fff]"> <CiCalendarDate className="pr-1"></CiCalendarDate>15 Nov 2023</p>
                             </div>
-                            <div className="flex flex-row">
+                            <div className="flex flex-col md:flex-row">
                                 <span className="flex flex-row text-lg justify-center items-center px-3 font-semibold text-[#fff]">  <BsEye className="pr-1"></BsEye><span>5.3k</span></span>
                                 <span className="flex flex-row text-lg justify-center items-center font-semibold text-[#fff]"><BsCurrencyDollar className="pr-1" ></BsCurrencyDollar><span>23.34</span></span>
                             </div>

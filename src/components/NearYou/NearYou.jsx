@@ -11,9 +11,9 @@ import { IoLocationOutline } from "react-icons/io5";
 const NearYou = () => {
     return (
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-5 font-montserrat">
-                <div className="bg-[#2d3e50] text-[#fff] shadow-xl flex flex-row">
-                    <figure><img className="w-full h-full" src={img1} alt="Shoes" /></figure>
-                    <div className="text-justify space-y-4 p-4">
+                <div className="bg-[#2d3e50] text-[#fff] shadow-xl flex flex-col lg:flex-row">
+                    <figure><img className="w-full h-60 lg:h-full" src={img1} alt="Shoes" /></figure>
+                    <div className="text-justify space-y-4 p-4 lg:w-96">
                         <h2 className="text-[#fff] text-lg font-bold">Latin Salsa Fiesta</h2>
                         <p className="text-[#fff]"> Music is a universal language that transcends boundaries and cultures. It has the power to evoke emotions, from joy and nostalgia to melancholy and introspection. Through melody and rhythm, music can tell stories and convey words alone cannot. Whether it's the
                             music has a profound impact on our lives.</p>
@@ -37,9 +37,9 @@ const NearYou = () => {
                 </div>
            
           
-                <div className="bg-[#2d3e50] text-[#fff] shadow-xl flex flex-row">
-                    <figure><img className="w-full h-full" src={img2} alt="Shoes" /></figure>
-                    <div className="text-justify space-y-4 p-4">
+                <div className="bg-[#2d3e50] text-[#fff] shadow-xl flex flex-col lg:flex-row">
+                    <figure><img className="w-full h-60 lg:h-full" src={img2} alt="Shoes" /></figure>
+                    <div className="text-justify space-y-4 p-4 lg:w-96">
                         <h2 className="text-[#fff] text-lg font-bold">Latin Salsa Fiesta</h2>
                         <p className="text-[#fff]"> Music is a universal language that transcends boundaries and cultures. It has the power to evoke emotions, from joy and nostalgia to melancholy and introspection. Through melody and rhythm, music can tell stories and convey words alone cannot. Whether it's the
                             music has a profound impact on our lives.</p>
@@ -63,9 +63,9 @@ const NearYou = () => {
                 </div>
          
      
-                <div className="bg-[#2d3e50] text-[#fff] shadow-xl flex flex-row">
-                    <figure><img className="w-full h-full" src={img3} alt="Shoes" /></figure>
-                    <div className="text-justify space-y-4 p-4">
+                <div className="bg-[#2d3e50] text-[#fff] shadow-xl flex flex-col lg:flex-row">
+                    <figure><img className="w-full h-60 lg:h-full" src={img3} alt="Shoes" /></figure>
+                    <div className="text-justify space-y-4 p-4 lg:w-96">
                         <h2 className="text-[#fff] text-lg font-bold">Latin Salsa Fiesta</h2>
                         <p className="text-[#fff]"> Music is a universal language that transcends boundaries and cultures. It has the power to evoke emotions, from joy and nostalgia to melancholy and introspection. Through melody and rhythm, music can tell stories and convey words alone cannot. Whether it's the
                             music has a profound impact on our lives.</p>
@@ -89,9 +89,9 @@ const NearYou = () => {
                 </div>
            
        
-                <div className="bg-[#2d3e50] text-[#fff] shadow-xl flex flex-row">
-                    <figure><img className="w-full h-full" src={img4} alt="Shoes" /></figure>
-                    <div className="text-justify space-y-4 p-4">
+                <div className="bg-[#2d3e50] text-[#fff] shadow-xl flex flex-col lg:flex-row">
+                    <figure><img className="w-full h-60 lg:h-full" src={img4} alt="Shoes" /></figure>
+                    <div className="text-justify space-y-4 p-4 lg:w-96">
                         <h2 className="text-[#fff] text-lg font-bold">Latin Salsa Fiesta</h2>
                         <p className="text-[#fff]"> Music is a universal language that transcends boundaries and cultures. It has the power to evoke emotions, from joy and nostalgia to melancholy and introspection. Through melody and rhythm, music can tell stories and convey words alone cannot. Whether it's the
                             music has a profound impact on our lives.</p>
@@ -115,9 +115,9 @@ const NearYou = () => {
                 </div>
           
           
-                <div className="bg-[#2d3e50] text-[#fff] shadow-xl flex flex-row">
-                    <figure><img className="w-full h-full" src={img5} alt="Shoes" /></figure>
-                    <div className="text-justify space-y-4 p-4">
+                <div className="bg-[#2d3e50] text-[#fff] shadow-xl flex flex-col lg:flex-row">
+                    <figure><img className="w-fullh-60 lg:h-full" src={img5} alt="Shoes" /></figure>
+                    <div className="text-justify space-y-4 p-4 lg:w-96">
                         <h2 className="text-[#fff] text-lg font-bold">Latin Salsa Fiesta</h2>
                         <p className="text-[#fff]"> Music is a universal language that transcends boundaries and cultures. It has the power to evoke emotions, from joy and nostalgia to melancholy and introspection. Through melody and rhythm, music can tell stories and convey words alone cannot. Whether it's the
                             music has a profound impact on our lives.</p>
@@ -141,9 +141,9 @@ const NearYou = () => {
                 </div>
         
           
-                <div className="bg-[#2d3e50] text-[#fff] shadow-xl flex flex-row">
-                    <figure><img className="w-full h-full" src={img6} alt="Shoes" /></figure>
-                    <div className="text-justify space-y-4 p-4">
+                <div className="bg-[#2d3e50] text-[#fff] shadow-xl flex flex-col lg:flex-row">
+                    <figure><img className="w-full h-60 md:h-full" src={img6} alt="Shoes" /></figure>
+                    <div className="text-justify space-y-4 p-4 lg:w-96">
                         <h2 className="text-[#fff] text-lg font-bold">Latin Salsa Fiesta</h2>
                         <p className="text-[#fff]"> Music is a universal language that transcends boundaries and cultures. It has the power to evoke emotions, from joy and nostalgia to melancholy and introspection. Through melody and rhythm, music can tell stories and convey words alone cannot. Whether it's the
                             music has a profound impact on our lives.</p>
